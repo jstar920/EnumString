@@ -54,11 +54,11 @@ constexpr auto enumValueName()
 }
 
 #ifndef MaxIndex
-    #define MaxIndex 1024
+    #define MaxIndex 128
 #endif
 
 #ifndef MinIndex
-    #define MinIndex -1024
+    #define MinIndex 0
 #endif
 
 static_assert(MaxIndex > MinIndex);
